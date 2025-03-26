@@ -71,7 +71,7 @@ addOrderForm.addEventListener("submit", function (event) {
             customerId: customerId,
             name: orderNameInput.value,
             price: orderPriceInput.value,
-            image: "img/combo.jpeg" 
+            image: "combo.jpeg" 
         });
         localStorage.setItem("orders", JSON.stringify(orders));
         renderOrders(customerId);
