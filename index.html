@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Orders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-top">
+                <a href="#" id="logo"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <div class="navbar-main">
+                <ul class="customers-list">
+                    <li class="customer-item">
+                        <span class="customer-name">John Doe</span>
+                        <a href="#" class="customer-phone">+123456789</a>
+                    </li>
+                    <li class="customer-item">
+                        <span class="customer-name">Jane Smith</span>
+                        <a href="#" class="customer-phone">+987654321</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-footer">
+                <form>
+                    <input type="text" placeholder="Customer Name">
+                    <input type="tel" placeholder="Phone Number">
+                    <button type="submit">Add Customer</button>
+                </form>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="main-headers">
+                <div class="cutomer-id-wrapper">
+                    <span>ID:</span>
+                    <span id="clientId">---</span>
+                </div>
+                <div class="customer-name">Main Menu</div>
+            </div>
+            <div class="main-orders">
+                <div class="orders-list" id="menu-list">
+                    <div class="order-item">
+                        <img src="img/burger_cheese.jpeg" alt="Cheese Burger">
+                        <div>
+                            <span>Cheese Burger</span>
+                            <span>$5</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/chicken_togora.jpeg" alt="Chicken Togora">
+                        <div>
+                            <span>Chicken Togora</span>
+                            <span>$7</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/chicken_wings.jpeg" alt="Chicken Wings">
+                        <div>
+                            <span>Chicken Wings</span>
+                            <span>$6</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/cola.jpeg" alt="Cola">
+                        <div>
+                            <span>Cola</span>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/fanta.jpeg" alt="Fanta">
+                        <div>
+                            <span>Fanta</span>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/combo.jpeg" alt="Combo Meal">
+                        <div>
+                            <span>Combo Meal</span>
+                            <span>$12</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <img src="img/spinner.jpeg" alt="Spinner">
+                        <div>
+                            <span>Spinner</span>
+                            <span>$4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer">
+                <form>
+                    <input type="text" placeholder="Order Name">
+                    <input type="number" placeholder="Price">
+                    <button type="submit">Add Order</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
